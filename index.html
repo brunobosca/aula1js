@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="meuScript.js"></script>
-    <title>Document</title>
+    <title>Comparador de Números</title>
 </head>
+
 <body>
-    
+    <h1>Comparador de Números</h1>
+
+    <div class="formulario">
+        <div class="inputs-container">
+            <div class="caixa-input">
+                <span>Numero 1</span>
+                <input id="numero1">
+            </div>
+            <div class="caixa-input">
+                <span>Numero 2</span>
+                <input id="numero2">
+            </div>
+        </div>
+        
+        <div class="botao">
+            <button onclick="minhaFuncao()">Comparar numeros</button>
+        </div>
+    </div>
+
+    <div class="resultado">
+        <h1 id="Resultado"></h1>
+    </div>
 </body>
 </html>
